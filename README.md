@@ -6,4 +6,4 @@ if needed, use the GetMousePos to determine the button and pixels Coordinations!
 
 This cheat is in Python 2.7.13!
 
-> P.S. : Use @gamebot and select LumberJack in [Telegram](https://telegram.org/ "Telegram Site") to start the game!
+> P.S. : Use @gamebot and select LumberJack in [Telegram](https://telegram.org/ "Telegram Site") OR [THIS LINK](https://tbot.xyz/lumber "The Game Web Address") to start the game!
