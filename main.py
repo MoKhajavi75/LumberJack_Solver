@@ -4,8 +4,10 @@
 
 import pyautogui
 import time
+import keyboard
 
 
+print("Press 'Esc' anytime to quit!\n")
 # give you time to start game and set browser!
 time.sleep(3)
 
@@ -19,6 +21,7 @@ right_color = pixel.getpixel((1083, 313))
 tree_color = (161, 116, 56)
 back_color = (211, 247, 255)
 
+print("Let's Go!\n")
 
 while True:
 
@@ -50,3 +53,8 @@ while True:
         elif right_color == tree_color:
             pyautogui.click(987, 606)
             pyautogui.click(987, 606)
+
+    # how to exit from the program!
+    state = keyboard.is_pressed('esc')
+    if state == 1:
+        exit()
